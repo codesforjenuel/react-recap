@@ -13,7 +13,7 @@ export default function Header() {
    return (
       <div className='bannerImg'>
          {/* <Banner> */}
-            <p>gfkjagfkafgs</p>
+            
          {/* </Banner> */}
       </div>
    )
