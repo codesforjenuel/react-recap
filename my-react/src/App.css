@@ -1,14 +1,17 @@
 body {
+    display: flex;
+    justify-content: center;
     margin: 0;
+    width: 100%;
     height: 100%;
-    background: white;
+    background: linear-gradient(purple, aqua);
     background-size: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* background-repeat: no-repeat; */
+    filter: drop-shadow(0px 5px 10px black);
 }
 
+
 .storeName {
-   
     font-size: 40px;
     background: -webkit-linear-gradient(#dd00ff, #00d0ff);
     background-clip: text;
@@ -16,6 +19,8 @@ body {
 }
 
 nav {
+    background: white;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -36,55 +41,69 @@ nav {
 }
 
 .bannerImg {
-    width: 100%;
-    height: 200px;
+    max-width: 1000px;
+    height: 300px;
     background-image: url(https://cdn.luxatic.com/wp-content/uploads/2021/03/Less-is-More-Game-Decor-scaled.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .ourStore {
+    margin: 0;
     font-size: 30px;
     background: -webkit-linear-gradient(#dd00ff, #00d0ff);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+.descriptionBox {
+    text-align: center;
+    background: white;
+}
+
 .description {
+    margin: 0;
     background: -webkit-linear-gradient(#dd00ff, #00d0ff);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-right: 10%;
-    /* height: 300px; */
-    width: 100%;
-    text-align:center;
+    margin-left: 10%;
+    max-width: 1000px;
+    text-align: center;
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .cardContainer {
+    max-width: 1000px;
     border-top: 2px solid black;
-    background-image: url(https://marketplace.canva.com/EAE98IQlC5E/1/0/1600w/canva-purple-simple-gaming-background-futuristic-game-zone-desktop-wallpaper-iC5A8PGB4t0.jpg);
+    background-image: url("https://www.freevector.com/uploads/vector/preview/31066/Vecteezy_Background-Technology_BK1120.jpg");
     background-size: cover;
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    
+    justify-content: center;
+
 }
 
 .card {
     margin: 10px;
-    width: 450px;
+    width: 350px;
     height: 180px;
     box-shadow: 0px 5px 10px black;
     border-radius: 10px;
     background: whitesmoke;
-    filter: drop-shadow(0px 10px 4px black);
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.card:hover {
+    filter: drop-shadow(0px 10px 10px rgb(0, 0, 0));
+    background: linear-gradient(rgb(145, 0, 133), aqua);
+    transition: 200ms;
 }
 
 .cardImg {
@@ -94,21 +113,51 @@ nav {
     border-radius: 10px;
 }
 
-.card:hover {
-filter: drop-shadow(0px 10px 10px aqua);
-background: linear-gradient(purple,aqua);
-transition: 200ms;
+.carouselCon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    max-height: 600px;
+    background: white;
 }
 
+.discountImg {
+    margin: 5px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+
+
 footer {
+
     display: flex;
-    align-items:center ;
+    align-items: center;
     justify-content: center;
     height: 60px;
     border-top: 2px solid black;
-    margin-top: 10%;
     text-align: center;
     color: azure;
-    background-image: url("https://wallpaperaccess.com/full/270156.jpg");
+    background-image: url("https://www.freevector.com/uploads/vector/preview/31066/Vecteezy_Background-Technology_BK1120.jpg");
     background-size: cover;
+}
+
+@media screen and (min-width: 460px) {
+    .cardContainer {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .card {
+        flex-direction: column;
+        width: 210px;
+        height: 320px;
+    }
+    .navBox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
 }
