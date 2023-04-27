@@ -33,6 +33,66 @@ const Cardcontainer = () => {
           <button>Add To Cart</button>
         </ul>
       </div>
+      <div className='card'>
+        <img className='cardImg' src='https://ae01.alicdn.com/kf/Sb378e6dc4c5f4601b6d46d6f4b045729t/ASUSHOM-24-Inch-75hz-curved-Monitor-PC-VA-LCD-HD-Gaming-Monitor-for-Desktop-HDMI-Compatible.jpg_Q90.jpg_.webp' />
+        <ul>
+          <li>Model</li>
+          <li>Brand</li>
+          <li>Item</li>
+          <li>$Price</li>
+          <button>Add To Cart</button>
+        </ul>
+      </div>
+      <div className='card'>
+        <img className='cardImg' src='https://ae01.alicdn.com/kf/Sb378e6dc4c5f4601b6d46d6f4b045729t/ASUSHOM-24-Inch-75hz-curved-Monitor-PC-VA-LCD-HD-Gaming-Monitor-for-Desktop-HDMI-Compatible.jpg_Q90.jpg_.webp' />
+        <ul>
+          <li>Model</li>
+          <li>Brand</li>
+          <li>Item</li>
+          <li>$Price</li>
+          <button>Add To Cart</button>
+        </ul>
+      </div>
+      <div className='card'>
+        <img className='cardImg' src='https://ae01.alicdn.com/kf/Sb378e6dc4c5f4601b6d46d6f4b045729t/ASUSHOM-24-Inch-75hz-curved-Monitor-PC-VA-LCD-HD-Gaming-Monitor-for-Desktop-HDMI-Compatible.jpg_Q90.jpg_.webp' />
+        <ul>
+          <li>Model</li>
+          <li>Brand</li>
+          <li>Item</li>
+          <li>$Price</li>
+          <button>Add To Cart</button>
+        </ul>
+      </div>
+      <div className='card'>
+        <img className='cardImg' src='https://ae01.alicdn.com/kf/Sb378e6dc4c5f4601b6d46d6f4b045729t/ASUSHOM-24-Inch-75hz-curved-Monitor-PC-VA-LCD-HD-Gaming-Monitor-for-Desktop-HDMI-Compatible.jpg_Q90.jpg_.webp' />
+        <ul>
+          <li>Model</li>
+          <li>Brand</li>
+          <li>Item</li>
+          <li>$Price</li>
+          <button>Add To Cart</button>
+        </ul>
+      </div>
+      <div className='card'>
+        <img className='cardImg' src='https://ae01.alicdn.com/kf/Sb378e6dc4c5f4601b6d46d6f4b045729t/ASUSHOM-24-Inch-75hz-curved-Monitor-PC-VA-LCD-HD-Gaming-Monitor-for-Desktop-HDMI-Compatible.jpg_Q90.jpg_.webp' />
+        <ul>
+          <li>Model</li>
+          <li>Brand</li>
+          <li>Item</li>
+          <li>$Price</li>
+          <button>Add To Cart</button>
+        </ul>
+      </div>
+      <div className='card'>
+        <img className='cardImg' src='https://ae01.alicdn.com/kf/Sb378e6dc4c5f4601b6d46d6f4b045729t/ASUSHOM-24-Inch-75hz-curved-Monitor-PC-VA-LCD-HD-Gaming-Monitor-for-Desktop-HDMI-Compatible.jpg_Q90.jpg_.webp' />
+        <ul>
+          <li>Model</li>
+          <li>Brand</li>
+          <li>Item</li>
+          <li>$Price</li>
+          <button>Add To Cart</button>
+        </ul>
+      </div>
     </div>
   )
 }
