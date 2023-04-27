@@ -88,6 +88,10 @@ nav {
 
 }
 
+ul{
+    list-style: none;
+}
+
 .card {
     margin: 10px;
     width: 350px;
@@ -125,7 +129,7 @@ nav {
 
 .discountImg {
     margin: 5px;
-    height: 500px;
+    height: 200px;
     border: 1px solid black;
 }
 
@@ -155,10 +159,15 @@ footer {
         width: 210px;
         height: 320px;
     }
+
     .navBox {
         display: flex;
         flex-direction: row;
         align-items: center;
+    }
+
+    .discountImg {
+        height: 500px;
     }
 
 }
