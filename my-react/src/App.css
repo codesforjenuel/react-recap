@@ -59,6 +59,7 @@ nav {
 .descriptionBox {
     text-align: center;
     background: white;
+    padding: 20px 0px 50px 0px;
 }
 
 .description {
@@ -102,7 +103,7 @@ nav {
 
 .card:hover {
     filter: drop-shadow(0px 10px 10px rgb(0, 0, 0));
-    background: linear-gradient(rgb(145, 0, 133), aqua);
+    background: linear-gradient(rgb(205, 3, 60), rgb(102, 3, 182));
     transition: 200ms;
 }
 
